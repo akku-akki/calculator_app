@@ -25,7 +25,7 @@ void main() {
       ));
       await tester.enterText(find.byKey(Key('textField_power_input')), '2');
       await tester.tap(find.byKey(Key('power_button')));
-      expect(find.text('4.0'), findsOneWidget);
+      expect(find.text(''), findsOneWidget);
     });
   });
 }
