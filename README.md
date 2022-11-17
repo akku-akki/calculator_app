@@ -2,6 +2,9 @@
 
 Calculator - Caster.IO project to showcase testing techniques
 
+This projects includes unit, widget, Integraton, and golden testing samples.
+
+
 ## License
 
 ```
