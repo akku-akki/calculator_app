@@ -10,7 +10,7 @@ void main() {
       await tester.pumpWidget(CalculatorApp(calculator: Calculator()));
       await expectLater(
           find.byType(CalculatorApp), matchesGoldenFile('goldens/calculator_app.png'));
-    });
+    }, tags: 'no-ci');
 
     testWidgets('renders four widgets of type TwoDigitOperations',
         (WidgetTester tester) async {
